@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  position:absolute;
+}
+.imageclass{
+  width:350px;
+  height:350px;
+    position:relative;
+    right: 0px;
+    top: 0px;
+}
+.divimageclass{
+  width:350px;
+  height:350px;
+    position:relative;
+    right: 0px;
+    top: 0px;
+}
+.textclass  {
+  position: relative;
+
+  right: -450px;
+   top: -330px;
+   font-size: 20px;
+font-weight: bold;
+/*border: 2px solid white;
+border-radius: 8px;*/
+font-family: "Times New Roman", Times, serif;
+
+
+}
+.o{
+  width: 250px;
+
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: -450px;
+   top: -310px;
+   width:200px;
+}
+.p{
+  width: 250px;
+
+  position: relative;
+  font-size: 20px;
+   font-weight: bold;
+  right: -450px;
+   top: -300px;
+   width:200px;
+}
+h1{
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size:50px
+
+}
+.f{
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size:50px
+
+}
+
+.pr{
+  color: red;
+}

@@ -21,6 +21,7 @@ import { FlexBoxDemo } from './utilities/FlexboxDemo';
 import { Invoice } from './pages/Invoice';
 import { Help } from './pages/Help';
 import { EmptyPage } from './pages/EmptyPage';
+import { ItemPage } from './pages/ItemPage';
 
 import PrimeReact from 'primereact/api';
 
@@ -97,6 +98,8 @@ const App = () => {
         { path: '/invoice', component: Invoice },
         { path: '/help', component: Help },
         { path: '/empty', component: EmptyPage },
+        { path: '/ItemPage', component: ItemPage },
+
     ];
 
     let topbarItemClick;
